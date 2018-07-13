@@ -2,19 +2,21 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PingPong</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-</head>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+        <link href="css/styles.css" rel="stylesheet">
+      
+        <title>Ping-Pong</title>
+      </head>   
 
 <body>
+    <div class="container">
     <div class="jumbotron" id="jumbotron">
         <h1>Ping-Pong</h1>
     </div>
-    
+
     <div class="row">
         <div class="col-md-5" id="column1">
             <h3>About PingPong</h3>
@@ -34,21 +36,18 @@
                 <li>numbers divisible 5 become "pong"</li>
                 <li>numbers divisible 3 and become"pingpong"</li>
             </ol>
-            <form class="form-inline">
-                <div class="form-group mb-2">
-                    <label for="staticEmail2" class="sr-only">Number</label>
-                    <input type="text" readonly class="form-control-plaintext" id="statinumber" value="Enter your number here">
-                </div>
-                <div class="form-group mx-sm-3 mb-2">
-                    <input type="number/letters" class="form-control" id="number" placeholder="">
-
-                </div>
-                <button type="pingpong" class="btn btn-primary mb-2" id="pingpong">PingPong</button>
+            <form id="form3">
+            <label for ="input-number"> Your number:</label>
+            <input type="number/letters" id="number" placeholder="Enter number here">
+                
+                <button type="submit" class="btn btn-primary mb-2" id="pingpong">PingPong</button>
             </form>
+            </div>
+            <div> <ul id="result"></ul></div>
         </div>
     </div>
- 
-
+        
+        <script src="scripts/scripts.js"></script>
 </body>
 
 </html>
