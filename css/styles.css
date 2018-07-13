@@ -1,5 +1,5 @@
 body{
-background-color: rgb(128, 128, 128);
+background-color: yellow;
      
 }
 #jumbotron {
@@ -11,8 +11,8 @@ background-repeat: no-repeat;
 background-size:  100%;
 font-size: 200%; 
 height: ; 150px;
-margin-left: -80px;
-margin-right:-80px;
+margin-left: -90px;
+margin-right:-90px;
 
 }
 #column1{
@@ -26,4 +26,15 @@ padding-right: -40px;
 }
 #h3{
     padding-left: 80px;
+}
+#mar{
+
+}
+#kim{
+
+color: royalblue;
+}
+#pingpong{
+    height: 32px;
+    width: 100px;
 }
