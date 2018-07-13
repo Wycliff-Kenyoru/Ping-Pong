@@ -1,6 +1,9 @@
-Numbers divisible by 15 are replaced with "ping-pong"
+
  
- ## BDD
+Author Kenyoru Wycliff
+Project title
+Numbers divisible by 15 are replaced with "ping-pong"
+ Discriptions
 -  -Accepts input from the user
 -    -confirms that the input is a number
 -  -count from 1 through the inputted number
@@ -12,7 +15,8 @@ Numbers divisible by 15 are replaced with "ping-pong"
 +  -Can replace multiples of 3 with ping
 +  -Can replace multiples of 5 with pong
 +  -Can replace multiples of 15 with pingpong
-Installations requirements
+Installations requirements and setup
+mobile phone or  a computer
 open browser
 https://github.com/Wycliff-Kenyoru
 Technologies Used

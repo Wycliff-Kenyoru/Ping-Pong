@@ -10,7 +10,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size:  100%;
 font-size: 200%; 
-height: ; 150px;
+height:  150px;
 margin-left: -90px;
 margin-right:-90px;
 
@@ -34,7 +34,10 @@ padding-right: -40px;
 
 color: royalblue;
 }
+#kim:hover {
+    opacity: 0.2;
+    color:red;
 #pingpong{
-    height: 32px;
+    height: 30px;
     width: 100px;
 }
