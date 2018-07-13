@@ -11,10 +11,19 @@ background-repeat: no-repeat;
 background-size:  100%;
 font-size: 200%; 
 height: ; 150px;
+margin-left: -80px;
+margin-right:-80px;
 
 }
 #column1{
 background-color: greenyellow;
 margin-bottom: 50%;
-padding-bottom: 11px
+margin-left: -70px;
+
+padding-bottom: 20px;
+padding-right: -40px;
+
+}
+#h3{
+    padding-left: 80px;
 }
